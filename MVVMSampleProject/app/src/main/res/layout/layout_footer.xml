@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:id="@+id/textLimit"
+            android:text="REACHED LIMIT"
+            android:padding="20dp"
+            android:background="#E69191"
+            android:visibility="gone"/>
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:id="@+id/buttonAdd"
+            android:text="Add Item"
+            android:background="#C6CFFF"/>
+</LinearLayout>
